@@ -17,6 +17,4 @@ echo "Download complete: $OS_IMAGE_PATH"
 # echo "Writing the OS image to USB..."
 # dd if="$OS_IMAGE_PATH" of=/dev/sdX bs=4M status=progress && sync
 
-# OR if using a VM, mount the ISO as needed.
-
 echo "Process complete!"
