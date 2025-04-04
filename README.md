@@ -5,6 +5,9 @@ This command will convert your ubuntu vps into RDP which one is official untouch
 
 Run the following commands on your VPS:
 
-wget -O install.sh https://raw.githubusercontent.com/inhumantt/tinyos/refs/heads/main/install.sh
-chmod +x install.sh
-./install.sh
+apt install git -y
+git clone https://github.com/TasikIslam/windows-contabo.git
+cd windows-contabo
+chmod +x windows-install.sh
+./windows-install.sh
+The process takes approximately 15 minutes and completes when the ssh session disconnects due to the machine rebooting.
